@@ -1,3 +1,4 @@
 .gitignore
 .idea/
 CodingPractice.iml
+out/

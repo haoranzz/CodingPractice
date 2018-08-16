@@ -1,3 +1,5 @@
+package test;
+
 import main.sorting.MergeSort;
 import main.sorting.QuickSort;
 import main.sorting.SelectionSort;

@@ -1,5 +1,3 @@
-package test;
-
 import main.sorting.MergeSort;
 
 class Runner {
