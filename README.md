@@ -8,6 +8,8 @@
    - FirstOccurrence
    - KthCloesestToTarget
    - LastOccurrence
+   - LargestInCamelArray
+   - SmallestLargerThanTarget
 - sorting
    - MergeSort
    - QuickSort
