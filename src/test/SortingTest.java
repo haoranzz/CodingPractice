@@ -6,6 +6,8 @@ import main.sorting.SelectionSort;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Arrays;
+
 /**
  * Created by haoranz on 8/7/18.
  *
@@ -30,7 +32,12 @@ public class SortingTest {
     @Test
     public void testQuickSort() {
         for (int i=0; i<testInputs.length; i++) {
-            Assert.assertArrayEquals(QuickSort.sort(testInputs[i]),expectOutputs[i]);
+            System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+            System.out.println("origin: " + Arrays.toString(testInputs[i]));
+            System.out.println("expect: " + Arrays.toString(expectOutputs[i]));
+            int[] res = QuickSort.sort(testInputs[i]);
+            System.out.println("result: " + Arrays.toString(res));
+            Assert.assertArrayEquals(res,expectOutputs[i]);
         }
     }
 
