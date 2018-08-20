@@ -16,4 +16,8 @@
    - SelectionSort
 - basicrecursion
    - FibonacciRecursion
+- twopointers
+   - MoveAllZeroToRight
+   - RainbowSort
+- other
    
